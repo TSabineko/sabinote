@@ -1,6 +1,6 @@
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ if gt (len $posts) 0 }}
-<section class="container list">
+<section class="container list home-latest-posts">
   <header>
     <h2 class="title">
       <a class="title-link" href="{{ "posts/" | relURL }}">Latest Posts</a>

@@ -1,0 +1,21 @@
+.content:has(.home-latest-posts) {
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.content:has(.home-latest-posts) > section {
+  width: 100%;
+}
+
+.content .home-latest-posts {
+  max-width: 76rem;
+}
+
+.content .home-latest-posts header {
+  margin-top: 0;
+}
+
+.content .home-latest-posts p {
+  text-align: left;
+}

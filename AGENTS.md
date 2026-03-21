@@ -9,6 +9,12 @@ This file documents repository-specific instructions for working in `sabinote`.
 - Use `ghcr.io/gohugoio/hugo:v0.158.0`.
 - Run commands from the repository root: `/home/sabineko/project/sabinote`.
 
+## Commit workflow
+
+- After making code or content edits, do not commit immediately.
+- First, let the user review and verify the changes locally.
+- Only create a commit after the user explicitly says to proceed.
+
 ## Standard Docker wrapper
 
 Use this pattern for Hugo commands:

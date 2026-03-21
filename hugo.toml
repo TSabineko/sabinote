@@ -20,6 +20,7 @@ favicon_16 = "images/favicon-16x16.png"
 touchicon = "images/apple-touch-icon.png"
 mask_icon = "images/favicon.svg"
 manifest = "site.webmanifest"
+customSCSS = ["scss/custom.scss"]
 
 [[menu.main]]
 name = "Posts"

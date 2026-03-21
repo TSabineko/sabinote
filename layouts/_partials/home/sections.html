@@ -1,0 +1,26 @@
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ if gt (len $posts) 0 }}
+<section class="container list">
+  <header>
+    <h2 class="title">
+      <a class="title-link" href="{{ "posts/" | relURL }}">Latest Posts</a>
+    </h2>
+  </header>
+  <p>
+    おうちサーバー運用、Docker、Linux、ネットワークまわりで実際に試したことを中心にまとめています。
+  </p>
+  <ul>
+    {{ range first 5 $posts.ByDate.Reverse }}
+    <li>
+      <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+      <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  <p>
+    <a href="{{ "posts/" | relURL }}">すべての記事を見る</a>
+    ·
+    <a href="{{ "tags/" | relURL }}">タグから探す</a>
+  </p>
+</section>
+{{ end }}

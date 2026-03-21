@@ -14,6 +14,7 @@ This file documents repository-specific instructions for working in `sabinote`.
 - After making code or content edits, do not commit immediately.
 - First, let the user review and verify the changes locally.
 - Only create a commit after the user explicitly says to proceed.
+- Once the user approves the changes, it is okay to continue through both commit and push unless the user asks to stop before pushing.
 
 ## Standard Docker wrapper
 

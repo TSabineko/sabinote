@@ -1,4 +1,4 @@
-baseURL = "https://TSabineko.github.io/sabinote/"
+baseURL = "https://sabinote.com/"
 languageCode = "ja-jp"
 title = "SabiNote"
 theme = "hugo-coder"

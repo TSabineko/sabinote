@@ -1,14 +1,14 @@
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ if gt (len $posts) 0 }}
 <section class="container list home-latest-posts">
+  <p>
+    おうちサーバー運用、Docker、Linux、ネットワークまわりで実際に試したことを中心にまとめています。
+  </p>
   <header>
     <h2 class="title">
       <a class="title-link" href="{{ "posts/" | relURL }}">Latest Posts</a>
     </h2>
   </header>
-  <p>
-    おうちサーバー運用、Docker、Linux、ネットワークまわりで実際に試したことを中心にまとめています。
-  </p>
   <ul>
     {{ range first 5 $posts.ByDate.Reverse }}
     <li>

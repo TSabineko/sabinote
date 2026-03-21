@@ -36,3 +36,19 @@ url = "/about/"
 name = "Tags"
 weight = 3
 url = "/tags/"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/TSabineko"
+target = "_blank"
+rel = "noopener noreferrer"
+
+[[params.social]]
+name = "X"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 2
+url = "https://x.com/Sabineko_rev"
+target = "_blank"
+rel = "noopener noreferrer"

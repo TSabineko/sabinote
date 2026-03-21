@@ -1,0 +1,32 @@
+baseURL = "https://TSabineko.github.io/sabinote/"
+languageCode = "ja-jp"
+title = "SabiNote"
+theme = "hugo-coder"
+defaultContentLanguage = "ja"
+
+[pagination]
+pagerSize = 20
+
+[params]
+author = "Sabineko"
+info = "おうちサーバー・Docker・ネットワーク・調べたこと の記録"
+description = "おうちサーバー運用の記録"
+keywords = "homelab, mini pc, docker, linux, ubuntu"
+colorScheme = "auto"
+since = 2026
+faviconSVG = "images/favicon.svg"
+favicon_32 = "images/favicon-32x32.png"
+favicon_16 = "images/favicon-16x16.png"
+touchicon = "images/apple-touch-icon.png"
+mask_icon = "images/favicon.svg"
+manifest = "site.webmanifest"
+
+[[menu.main]]
+name = "Posts"
+weight = 1
+url = "/posts/"
+
+[[menu.main]]
+name = "About"
+weight = 2
+url = "/about/"

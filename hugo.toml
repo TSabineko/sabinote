@@ -52,3 +52,6 @@ weight = 2
 url = "https://x.com/Sabineko_rev"
 target = "_blank"
 rel = "noopener noreferrer"
+
+[params.googleTagManager]
+id = "G-9V909J4HHM"

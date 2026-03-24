@@ -61,6 +61,7 @@ categories = ["homelab"]
 
 - web: 身内向けwebサービス公開 / BASIC認証を使用した限定公開
 - minecraft: Minecraftマルチサーバー / ホワイトリスト・FWを用いた限定公開
+- VPN: 拠点間の安全な通信 / WireGuardを使ったVPN接続
 
 個別にナレッジを書けそうなものは、今後別記事に分ける予定です。
 

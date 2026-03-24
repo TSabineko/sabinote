@@ -32,6 +32,7 @@ docker run --rm -it \
 ## Preferred Make targets
 
 - `make serve`: run the local Hugo server on port `1313`
+- `make serve-drafts`: run the local Hugo server with draft content enabled
 - `make build`: build the production site
 - `make new-post SLUG=posts/my-post.md`: create a new post under `content/`
 - `make new-page PATH=about.md`: create a new page under `content/`

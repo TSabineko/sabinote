@@ -3,7 +3,7 @@ title: "このブログについて"
 date: 2026-03-21T00:00:00+09:00
 draft: false
 description: "おうちサーバー運用の記録を残すためにブログを始めました。"
-tags: ["blog", "homelab"]
+tags: ["blog"]
 categories: ["posts"]
 ---
 

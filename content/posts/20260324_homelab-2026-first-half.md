@@ -70,7 +70,9 @@ categories = ["homelab"]
 - ルーター配下にGate-to-Vultrを配置し、公開サービス用のLANをその下に構成しています
 - Gate-to-Kawasakiで受け付けてNATされた通信がVPNを通って各VMと通信する形です
 
-ここは公開まわりの考え方を軽く触れる程度にして、必要なら別記事で詳しく書く予定です。
+~~ここは公開まわりの考え方を軽く触れる程度にして、必要なら別記事で詳しく書く予定です。~~
+
+4/1追記: [VPSとWireGuardでグローバルIPなし環境を外部公開する](/posts/no-global-ip-external-publishing-detail/) に詳しく書きました。
 
 ## いま困っていること・今後やりたいこと
 
